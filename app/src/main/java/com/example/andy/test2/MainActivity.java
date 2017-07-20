@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button btn = new Button(this);
+        Button btn = new Button(this);// xxx
 
         TextView tv = new TextView(this);
     }
