@@ -2,6 +2,8 @@ package com.example.andy.test2;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -10,6 +12,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        String s = new String();
+
+        Button btn = new Button(this);
+
+        TextView tv = new TextView(this);
     }
 }
